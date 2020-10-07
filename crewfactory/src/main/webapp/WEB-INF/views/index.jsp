@@ -252,7 +252,7 @@
 							<img src="/img/2020-main-visual-0525-02-mobile.jpg">	
 						</a>
 					</div>
-					
+					 
 					
 					<!--합격후기 -->
 					<div class="swiper-slide">
