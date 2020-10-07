@@ -20,17 +20,20 @@
 
 	
 	
-	<!-- 웹버전 -->
-	<div class="container-fluid">
-	<div class="row text-center">
-		<div class="col-12"><img src="/img/spcclass2-img-0831.jpg" class="mobile-100-percent"></div>	
-	</div>
-
-	</div>
+		<!-- 웹버전 -->
+	<div class="container-fluid mobile-hidden">
+		<div class="row">
+			<div class="col-12"><img src="/img/detail_1005_01.jpg"  style="width: 100%;"class="mobile-100-percent"></div>	
+		</div>
+   	</div>
    
-
-
-
+   
+   <!-- 모바일버전 -->
+	<div style="text-align: center;">
+		<img src="/img/detail_1005_01mo.jpg" alt="합격률" id="mobile-100-percent" class="mobile-show">
+   </div>
+   
+	
 
 
 
@@ -152,18 +155,25 @@ if ($(window).width() > 768) {
 						<div class="card-body">
 							<div class="form-group">
 								<label for="memo" class="font-bold">선택항목</label>
-								<div class="custom-control custom-checkbox">
-									<input type="checkbox" name="hopse" value="고2무료 원데이클래스" id="keoz" class="custom-control-input" checked>
-									<label for="keoz" class="custom-control-label">고2무료 원데이클래스</label>
+								<div class="custom-control custom-checkbox font-16-review2">
+									<input type="checkbox" name="hopse" value="항공운항과 대학입시" id="keoz" class="custom-control-input" checked>
+									<label for="keoz" class="custom-control-label">항공운항과 대학입시</label>
 								</div>
-	
+								<div class="custom-control custom-checkbox font-16-review2">
+									<input type="checkbox" name="hopse" value="항공경영과 대학입시" id="ko" class="custom-control-input">
+									<label for="ko" class="custom-control-label">항공경영과 대학입시</label>
+								</div>
+								<div class="custom-control custom-checkbox font-16-review2">
+									<input type="checkbox" name="hopse" value="호텔경영과 대학입시" id="os" class="custom-control-input">
+									<label for="os" class="custom-control-label">호텔경영과 대학입시</label>
+								</div>
 								
 								
 								<div class="help-block with-errors text-danger"></div>
 							</div>
 							<div class="form-group">
 		               		<label for="memo" class="font-bold">신청내용</label>
-		               		<textarea class="form-control" name="memo" id="memo"  placeholder="고2무료 원데이 클래스" rows="3" maxlength="300">고2무료 원데이 클래스</textarea>
+		               		<textarea class="form-control" name="memo" id="memo" placeholder="궁금한사항을 적어주세요." rows="3" maxlength="300"></textarea>
 		                  	<div class="help-block with-errors text-danger"></div>
 		               </div>
                	</div>

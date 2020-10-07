@@ -63,7 +63,7 @@
 					<div class="swiper-slide off-hide" style="background: url('/img/2020-main-visual-0928-bg.jpg') no-repeat center;">
 						<div class="cf-row off-hide" style="position: relative;">
 							<img src="/img/2020-main-visual-0928.png">
-							<button class="more-view-btn font-16 bg-black font-white" type="button" onclick="location.href='/counsel/online.do' " style="position: absolute; bottom: 18%; left: 19%;">자세히보기</button>
+							<button class="more-view-btn font-16 bg-black font-white" type="button" onclick="location.href='/counsel/specclass2.do' " style="position: absolute; bottom: 18%; left: 19%;">자세히보기</button>
 						</div>
 					</div>
 					
@@ -223,9 +223,9 @@
 							<img src="/img/2020-main-visual-0825-mobile.jpg">	
 						</a>
 					</div>
-					<!--814명 합격 -->
+					<!--서비스학과 -->
 					<div class="swiper-slide">						
-						<a href='/counsel/online.do'>
+						<a href='/counsel/specclass2.do'>
 							<img src="/img/2020-main-visual-0928-mobile.jpg">	
 						</a>
 					</div>
